@@ -78,8 +78,8 @@ ul li{
     display: flex;
 }
 .mainImg{
-    padding-top: 60px;
-    margin-left: 132px;
+    padding-top: 120px;
+    margin-left: 152px;
 }
 #mainH{
     animation-duration: 4s;
@@ -224,10 +224,49 @@ input{
     color: white;    
 }
 
-
-
 #title1{
     padding-left: 40%;
     padding-top: 40px;
 
+}
+
+/* Individual books */
+.bookBody{
+    border: 4px solid rgb(49, 202, 212) ;
+    margin: 40px;
+
+    
+}
+#back-btn{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    background-color: rgb(49, 202, 212);
+    color: black;
+}
+
+.bookBody{
+    background-image: url(/images/landing4.jpg);
+}
+/* book1 */
+.heading{
+    display: flex;
+}
+#book1{
+    background-image: url(/images/landing4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black    ;
+}
+.blog{
+    display: flex;
+}
+.blogImg{
+    width: 1000px;
+    height: 400px;
+    padding-top: 40px;
 }

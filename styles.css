@@ -25,7 +25,7 @@
 
 .navbar{
     position: fixed;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-left: 65%;
     background-color: transparent;
 }
@@ -99,23 +99,21 @@ ul li{
 }
 /*ABOUT PAGE */
 #quote{
+    padding-top: 70px;
     font-family: 'Comfortaa', cursive;
 }
-#abt_footer{
-    background-image: url(/images/land.jpg);
-    color: white;
-    height: 50vh;
-    background-size: cover ;
-}
+
 #image1{
     width: 400px;
 }
 .word1{
-    padding-top: 30px;
+    display: flex;
 }
-#graduate1{
-    width: 400px;
-    height: 300px;
+#mypic{
+    border-radius: 50px;
+    margin-top: 70px;
+    width: 180px;
+    height: 220px;
 }
 .row{
     display: flex;
@@ -129,6 +127,7 @@ ul li{
     background-image: url(/images/land3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 /* BLOGS PAGE */
@@ -137,6 +136,8 @@ ul li{
     height: 240px;
     width: 300px;
     padding-left: 15px;
+    border-radius: 30px;
+    margin-top: 30px;
 }
 .wrapper{
     margin-top: 20px;
@@ -167,6 +168,7 @@ ul li{
 }
 .descrption{
     padding-left: 10px;
+    margin-top: 20px;
 }
 
 #viewButton{
@@ -177,13 +179,18 @@ ul li{
 }
 
 /* footer section */
-.footer{
-    margin-top: 50px;
-    display: flex;
+.mainFooter{
+    background-color: rgba(0, 0, 0, 0.4);
     margin-left: 50px;
     margin-right: 50px;
-    background-color: rgba(0, 0, 0, 0.4);
     padding: 70px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.footer{
+    display: flex;
+
 }
 input{
     color: white;
@@ -191,11 +198,12 @@ input{
     height: 10vh;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: rgba(0, 0, 0, 0.384);
     /* padding: 15px; */
 }
 .form{
-    padding-left: 600px;
+    padding-left: 400px;
+    /* margin-right: 40px; */
 
 }
          
@@ -229,6 +237,11 @@ input{
     padding-top: 40px;
 
 }
+#contactTitle{
+    color: white;
+    margin-left: 5%;
+    color: rgb(49, 202, 212);
+}
 
 /* Individual books */
 .bookBody{
@@ -251,6 +264,7 @@ input{
 
 .bookBody{
     background-image: url(/images/landing4.jpg);
+    font-size: 17px;
 }
 /* book1 */
 .heading{

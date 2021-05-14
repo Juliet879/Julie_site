@@ -1,6 +1,3 @@
-$(document).ready(function(){
-    $("viewbutton").click(function(){
-        $("newpost").toggle();
-    })
-    
-})
+function onSubmit(){
+    alert("Thank you for subscribing")
+}

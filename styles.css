@@ -25,7 +25,7 @@
 
 .navbar{
     position: fixed;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 65%;
     background-color: transparent;
 }
@@ -34,9 +34,12 @@ nav ul li a{
     color: rgb(9, 181, 194);
 }
 nav ul li a:hover{
-    color: black;
-    background-color: white;
-    border: 1px solid silver;
+    /* font-size: 25px; */
+    color: rgba(228, 216, 216, 0.911);
+    background-color: rgb(12, 12, 12); 
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid silver; 
     text-decoration: none;
 }
 ul li{
@@ -73,6 +76,28 @@ ul li{
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+
+}
+#welcome-btn:hover{
+    animation-name: flashing;
+    animation-delay: 3s;
+}
+@keyframes flashing{
+    0%{
+        opacity: 1.0;
+    }
+    25%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    75%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1.0;
+    }
 }
 .maina{
     display: flex;
@@ -98,8 +123,11 @@ ul li{
     }
 }
 /*ABOUT PAGE */
+#aboutme{
+    padding-left: 40px;
+}
 #quote{
-    padding-top: 70px;
+    padding-top: 100px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -110,10 +138,13 @@ ul li{
     display: flex;
 }
 #mypic{
-    border-radius: 50px;
-    margin-top: 70px;
-    width: 180px;
-    height: 220px;
+    /* border-radius: 50px; */
+    margin-top: 10px;
+    width: 280px;
+    height: 350px;
+}
+.next-word{
+    padding-left: 20%;
 }
 .row{
     display: flex;
@@ -124,6 +155,9 @@ ul li{
 }
 .about{
     margin-top: 90px;
+    background-color: cornsilk;
+    padding-left: 60px;
+    padding-right: 60px;
     background-image: url(/images/land3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,33 +166,33 @@ ul li{
 
 /* BLOGS PAGE */
 #blog1Img{
-    /* padding-top: 10px; */
+    padding-top: 10px;
     height: 240px;
-    width: 300px;
+    width: 250px;
     padding-left: 15px;
-    border-radius: 30px;
+    border-radius: 7px;
     margin-top: 30px;
 }
 .wrapper{
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 2px solid rgb(49, 202, 212);
-    padding-top: 50px;
-    padding-right: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.466);
+    /* border: 2px solid rgb(49, 202, 212); */
+     padding-top: 50px;
+    /* padding-right: 20px;  */
+    margin-left: 50px;
+    margin-right: 50px;
    color: white;
 
 }
 .bordered{
-    border-radius: 5px;
-    margin-top: 20px;
+    /* border-radius: 5px; */
+    /* margin-top: 20px; */
     display: flex;
-    width: 510px;
+    /* width: 510px; */
     border: 0.1px solid grey;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     height: 370px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .container{
     display: grid;
@@ -168,7 +202,7 @@ ul li{
 }
 .descrption{
     padding-left: 10px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #viewButton{
@@ -181,29 +215,24 @@ ul li{
 /* footer section */
 .mainFooter{
     background-color: rgba(0, 0, 0, 0.4);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    /* margin-right: 50px; */
     padding: 70px;
     margin-top: 50px;
     border-radius: 20px;
 
 }
-.footer{
-    display: flex;
 
-}
 input{
     color: white;
-    width: 100%;
+    width: 80%;
     height: 10vh;
     margin-top: 5px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.384);
-    /* padding: 15px; */
 }
 .form{
-    padding-left: 400px;
-    /* margin-right: 40px; */
+    padding-left: 500px;
 
 }
          
@@ -218,18 +247,31 @@ input{
     background-color: rgb(49, 202, 212);
     color: black;
 }
-.icons{
+.icons a{
     color: white;
     height: 20px;
-    margin-left: 60%;
-    margin-top: 20px;
+    padding-top: 60px;
+    padding-left: px;
+}
+.icons{
+    background-color: black;
+}
+.childIcon{
+    margin-left: 35%;
+}
+.icons ul li{
+    margin-left: 10%;
+}
+.icons a:hover{
+    color: turquoise;
 }
 
 .contact{
     color: white;
 }
 #follow{
-    color: white;    
+    margin-left: 20%;
+    color: rgb(49, 202, 212);    
 }
 
 #title1{
@@ -238,9 +280,17 @@ input{
 
 }
 #contactTitle{
-    color: white;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
     margin-left: 5%;
     color: rgb(49, 202, 212);
+}
+footer{
+    background-color: white;
+}
+#myfoot{
+    margin-left: 48%;
+    color: black;
 }
 
 /* Individual books */
